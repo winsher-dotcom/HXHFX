@@ -6,14 +6,13 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 
-public class EmitterController {
-    public AnchorPane emitterRoot;
-    public AnchorPane currentView;
+public class ConjurerController {
+    public AnchorPane conjurerRoot;
     @FXML private Button homeButton;
 
     public void backToHome() throws IOException {
-        new SceneChanger(currentView, "home.fxml");
-        if (currentView == null) {
+        new SceneChanger(conjurerRoot, "home.fxml");
+        if (conjurerRoot == null) {
             throw new IllegalArgumentException("currentView is null");
         }
     }

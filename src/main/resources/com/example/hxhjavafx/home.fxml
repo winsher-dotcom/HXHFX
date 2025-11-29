@@ -9,19 +9,19 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane fx:id="homeRoot" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.HomeController">
    <children>
       <ScrollPane layoutX="20.0" layoutY="20.0" prefHeight="692.0" prefWidth="874.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="785.0" prefWidth="859.0">
                <children>
-                  <Text layoutX="318.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HUNTER X HUNTER">
+                  <AnchorPane prefHeight="56.0" prefWidth="863.0" style="-fx-background-color: gray;" />
+                  <Text layoutX="318.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HUNTER X HUNTER">
                      <font>
                         <Font name="System Bold" size="24.0" />
                      </font>
                   </Text>
-                  <ImageView fitHeight="225.0" fitWidth="459.0" layoutX="261.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="247.0" fitWidth="370.0" layoutX="245.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@images/Mainhxh.jpg" />
                      </image>
@@ -70,7 +70,7 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Text>
-                        <Button layoutX="279.0" layoutY="155.0" mnemonicParsing="false" text="MORE" />
+                        <Button fx:id="conjurerButton" layoutX="279.0" layoutY="155.0" mnemonicParsing="false" onAction="#openConjurerPage" text="MORE" />
                      </children>
                   </AnchorPane>
                   <AnchorPane layoutX="39.0" layoutY="570.0" prefHeight="203.0" prefWidth="377.0">
@@ -91,7 +91,7 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Text>
-                        <Button layoutX="281.0" layoutY="165.0" mnemonicParsing="false" text="MORE" />
+                        <Button fx:id="enhancerButton" layoutX="281.0" layoutY="165.0" mnemonicParsing="false" onAction="#openEnhancerPage" text="MORE" />
                      </children>
                   </AnchorPane>
                   <AnchorPane layoutX="448.0" layoutY="576.0" prefHeight="199.0" prefWidth="378.0">
@@ -112,7 +112,7 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Text>
-                        <Button layoutX="277.0" layoutY="161.0" mnemonicParsing="false" text="MORE" />
+                        <Button fx:id="specialistButton" layoutX="277.0" layoutY="161.0" mnemonicParsing="false" onAction="#openSpecialistPage" text="MORE" />
                      </children>
                   </AnchorPane>
                </children>
