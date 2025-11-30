@@ -8,40 +8,40 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="conjurerRoot" prefHeight="490.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.ConjurerController">
+<AnchorPane fx:id="specialistRoot" prefHeight="495.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.SpecialistController">
 
     <children>
-        <AnchorPane prefHeight="113.0" prefWidth="781.0" style="-fx-background-color: silver;">
+        <AnchorPane prefHeight="113.0" prefWidth="874.0" style="-fx-background-color: silver;">
             <children>
-                <Button fx:id="homeButton" layoutX="627.0" layoutY="44.0" mnemonicParsing="false" onAction="#backToHome" text="         HOME        " />
+                <Button fx:id="homeButton" layoutX="738.0" layoutY="41.0" mnemonicParsing="false" onAction="#backToHome" text="         HOME        " />
                 <ImageView fitHeight="113.0" fitWidth="192.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@images/hxh%20header.png" />
                     </image>
                 </ImageView>
-                <Text layoutX="297.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONJURER TYPE">
+                <Text layoutX="343.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONJURER TYPE">
                     <font>
                         <Font name="System Bold" size="24.0" />
                     </font>
                 </Text>
             </children>
         </AnchorPane>
-        <ImageView fitHeight="306.0" fitWidth="246.0" layoutX="42.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="351.0" fitWidth="320.0" layoutX="41.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@images/kurapika2.jpg" />
             </image>
         </ImageView>
-        <TextArea layoutX="315.0" layoutY="132.0" prefHeight="145.0" prefWidth="453.0" text="In Hunter x Hunter, a conjurer is a type of Nen user who can create &#10;physical objects from their aura. These users are typically serious, &#10;logical, and cautious, often being analytical and observant to avoid &#10;being trapped. Their conjured objects can range from standard items &#10;like weapons to those with special, supernatural abilities, but &#10;supernatural effects require stronger limitations on the object. ">
+        <TextArea layoutX="386.0" layoutY="127.0" prefHeight="145.0" prefWidth="453.0" text="In Hunter x Hunter, a conjurer is a type of Nen user who can create &#10;physical objects from their aura. These users are typically serious, &#10;logical, and cautious, often being analytical and observant to avoid &#10;being trapped. Their conjured objects can range from standard items &#10;like weapons to those with special, supernatural abilities, but &#10;supernatural effects require stronger limitations on the object. ">
             <font>
                 <Font size="14.0" />
             </font>
         </TextArea>
-        <TextArea layoutX="315.0" layoutY="290.0" prefHeight="189.0" prefWidth="453.0" text="&#10;&#10;Kurapika is an intelligent, level-headed, but cold and distant &#10;protagonist from Hunter x Hunter, motivated by vengeance after &#10;his clan was massacred. As the sole survivor of the Kurta clan, he &#10;seeks to retrieve the stolen scarlet eyes of his people and hunt &#10;down the Phantom Troupe. He is a member of the Hunter &#10;Association, specializing in the Nen ability known as Emperor &#10;Time, which allows him to use all five Nen types at 100% when &#10;his eyes turn scarlet. His fighting style often utilizes a set of chains&#10; that he can summon with his Nen, each with unique abilities,">
+        <TextArea layoutX="386.0" layoutY="280.0" prefHeight="189.0" prefWidth="453.0" text="&#10;&#10;Kurapika is an intelligent, level-headed, but cold and distant &#10;protagonist from Hunter x Hunter, motivated by vengeance after &#10;his clan was massacred. As the sole survivor of the Kurta clan, he &#10;seeks to retrieve the stolen scarlet eyes of his people and hunt &#10;down the Phantom Troupe. He is a member of the Hunter &#10;Association, specializing in the Nen ability known as Emperor &#10;Time, which allows him to use all five Nen types at 100% when &#10;his eyes turn scarlet. His fighting style often utilizes a set of chains&#10; that he can summon with his Nen, each with unique abilities,">
             <font>
                 <Font size="14.0" />
             </font>
         </TextArea>
-        <Text layoutX="329.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KURAPIKA">
+        <Text layoutX="401.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KURAPIKA">
             <font>
                 <Font name="System Bold" size="18.0" />
             </font>

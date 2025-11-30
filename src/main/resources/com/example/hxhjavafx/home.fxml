@@ -11,7 +11,7 @@
 
 <AnchorPane fx:id="homeRoot" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.HomeController">
    <children>
-      <ScrollPane layoutX="20.0" layoutY="20.0" prefHeight="692.0" prefWidth="874.0">
+      <ScrollPane layoutX="20.0" layoutY="20.0" prefHeight="695.0" prefWidth="873.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="785.0" prefWidth="859.0">
                <children>
@@ -107,7 +107,7 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Text>
-                        <Text layoutX="143.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KRURO">
+                        <Text layoutX="143.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHROLLO">
                            <font>
                               <Font name="System Bold" size="14.0" />
                            </font>

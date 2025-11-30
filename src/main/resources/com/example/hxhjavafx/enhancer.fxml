@@ -8,40 +8,40 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="enhancerRoot" prefHeight="490.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.EnhancerController">
+<AnchorPane fx:id="enhancerRoot" prefHeight="493.0" prefWidth="873.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.EnhancerController">
 
     <children>
-        <AnchorPane prefHeight="113.0" prefWidth="781.0" style="-fx-background-color: silver;">
+        <AnchorPane prefHeight="113.0" prefWidth="873.0" style="-fx-background-color: Gold;">
             <children>
-                <Button fx:id="homeButton" layoutX="627.0" layoutY="44.0" mnemonicParsing="false" onAction="#backToHome" text="         HOME        " />
+                <Button fx:id="homeButton" layoutX="737.0" layoutY="44.0" mnemonicParsing="false" onAction="#backToHome" text="         HOME        " />
                 <ImageView fitHeight="113.0" fitWidth="192.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@images/hxh%20header.png" />
                     </image>
                 </ImageView>
-                <Text layoutX="297.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENHANCER TYPE">
+                <Text layoutX="340.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENHANCER TYPE">
                     <font>
                         <Font name="System Bold" size="24.0" />
                     </font>
                 </Text>
             </children>
         </AnchorPane>
-        <ImageView fitHeight="306.0" fitWidth="246.0" layoutX="42.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="362.0" fitWidth="318.0" layoutX="68.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@images/kurapika2.jpg" />
+                <Image url="@images/gon2.jpg" />
             </image>
         </ImageView>
-        <TextArea layoutX="315.0" layoutY="132.0" prefHeight="145.0" prefWidth="453.0" text="In Hunter x Hunter, a conjurer is a type of Nen user who can create &#10;physical objects from their aura. These users are typically serious, &#10;logical, and cautious, often being analytical and observant to avoid &#10;being trapped. Their conjured objects can range from standard items &#10;like weapons to those with special, supernatural abilities, but &#10;supernatural effects require stronger limitations on the object. ">
+        <TextArea layoutX="394.0" layoutY="131.0" prefHeight="145.0" prefWidth="453.0" text="In Hunter x Hunter, an &quot;enhancer&quot; is a user of the Nen ability who &#10;uses their aura to increase the natural capabilities of their own &#10;body or objects. This means enhancers are primarily focused on &#10;physical attacks and defense, making them excellent for close-range &#10;combat, and their abilities often revolve around raw power, increased &#10;strength, and enhanced durability. ">
             <font>
                 <Font size="14.0" />
             </font>
         </TextArea>
-        <TextArea layoutX="315.0" layoutY="290.0" prefHeight="189.0" prefWidth="453.0" text="&#10;&#10;Kurapika is an intelligent, level-headed, but cold and distant &#10;protagonist from Hunter x Hunter, motivated by vengeance after &#10;his clan was massacred. As the sole survivor of the Kurta clan, he &#10;seeks to retrieve the stolen scarlet eyes of his people and hunt &#10;down the Phantom Troupe. He is a member of the Hunter &#10;Association, specializing in the Nen ability known as Emperor &#10;Time, which allows him to use all five Nen types at 100% when &#10;his eyes turn scarlet. His fighting style often utilizes a set of chains&#10; that he can summon with his Nen, each with unique abilities,">
+        <TextArea layoutX="394.0" layoutY="297.0" prefHeight="189.0" prefWidth="453.0" text="&#10;&#10;Gon is an athletic, friendly, and determined protagonist from&#10; Hunter x Hunter who is known for his green spiky hair, hazel eyes, &#10;and a green and red outfit. Raised on Whale Island, he is simple-&#10;minded, good with animals, and possesses enhanced senses like &#10;smell, sight, and taste. He wants to become a Hunter to find his &#10;father, Ging, but his impulsiveness and short temper can lead to &#10;reckless behavior, especially when his emotions run high. &#10;his eyes turn scarlet. His fighting style often utilizes a set of chains&#10;that he can summon with his Nen, each with unique abilities,">
             <font>
                 <Font size="14.0" />
             </font>
         </TextArea>
-        <Text layoutX="329.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KURAPIKA">
+        <Text layoutX="403.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freecss">
             <font>
                 <Font name="System Bold" size="18.0" />
             </font>

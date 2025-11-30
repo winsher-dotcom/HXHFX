@@ -8,16 +8,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="currentView" prefHeight="480.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.EmitterController">
+<AnchorPane fx:id="currentView" prefHeight="481.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.EmitterController">
    <children>
-      <AnchorPane prefHeight="113.0" prefWidth="784.0" style="-fx-background-color: gray;">
+      <AnchorPane prefHeight="114.0" prefWidth="874.0" style="-fx-background-color: gold;">
          <children>
-            <Text layoutX="308.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMITTER PAGE">
+            <Text layoutX="353.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMITTER PAGE">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Text>
-            <Button fx:id="homeButton" layoutX="644.0" layoutY="45.0" mnemonicParsing="false" onAction="#backToHome" text="       HOME       " />
+            <Button fx:id="homeButton" layoutX="743.0" layoutY="45.0" mnemonicParsing="false" onAction="#backToHome" text="       HOME       " />
             <ImageView fitHeight="113.0" fitWidth="203.0" layoutX="14.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/hxh%20header.png" />
@@ -25,22 +25,22 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="295.0" fitWidth="272.0" layoutX="41.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="327.0" fitWidth="295.0" layoutX="64.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/leorio2.jpg" />
          </image>
       </ImageView>
-      <TextArea layoutX="308.0" layoutY="129.0" prefHeight="140.0" prefWidth="466.0" text="An emitter is a person, thing, or device that emits something, such as &#10;radiation, a substance, or an electrical charge. In electronics, it's a component &#10;in a transistor that sends charge carriers to the base, or a part of a &#10;semiconductor device like an LED that emits light. In other contexts, it can &#10;refer to a radioactive substance emitting particles or a source of heat, light, &#10;or gas. ">
+      <TextArea layoutX="367.0" layoutY="129.0" prefHeight="140.0" prefWidth="466.0" text="An emitter is a person, thing, or device that emits something, such as &#10;radiation, a substance, or an electrical charge. In electronics, it's a component &#10;in a transistor that sends charge carriers to the base, or a part of a &#10;semiconductor device like an LED that emits light. In other contexts, it can &#10;refer to a radioactive substance emitting particles or a source of heat, light, &#10;or gas. ">
          <font>
             <Font size="13.0" />
          </font>
       </TextArea>
-      <TextArea layoutX="308.0" layoutY="281.0" prefHeight="188.0" prefWidth="466.0" text="&#10;&#10;Leorio is a tall, youthful-looking man from Hunter x Hunter who &#10;initially seems selfish but is a loyal friend and aspiring doctor, &#10;driven to earn money to fund his medical education so he can &#10;treat the poor. He has spiky black hair, brown eyes, and is often &#10;seen wearing a dark blue business suit and sunglasses, though his &#10;mature appearance often leads people to mistake him for an older &#10;man. His personality is defined by his loyalty to friends, his temper &#10;when they are insulted, and his ultimate goal of saving lives, which &#10;he demonstrates through his medical Nen ability, Ultrasound. ">
+      <TextArea layoutX="367.0" layoutY="279.0" prefHeight="188.0" prefWidth="466.0" text="&#10;&#10;Leorio is a tall, youthful-looking man from Hunter x Hunter who &#10;initially seems selfish but is a loyal friend and aspiring doctor, &#10;driven to earn money to fund his medical education so he can &#10;treat the poor. He has spiky black hair, brown eyes, and is often &#10;seen wearing a dark blue business suit and sunglasses, though his &#10;mature appearance often leads people to mistake him for an older &#10;man. His personality is defined by his loyalty to friends, his temper &#10;when they are insulted, and his ultimate goal of saving lives, which &#10;he demonstrates through his medical Nen ability, Ultrasound. ">
          <font>
             <Font size="14.0" />
          </font>
       </TextArea>
-      <Text layoutX="318.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Leorio Paradinight">
+      <Text layoutX="381.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Leorio Paradinight">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

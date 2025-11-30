@@ -1,2 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="conjurerRoot" prefHeight="532.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhjavafx.ConjurerController">
+    <children>
+        <AnchorPane prefHeight="113.0" prefWidth="874.0" style="-fx-background-color: Silver;">
+            <children>
+                <Button fx:id="homeButton" layoutX="715.0" layoutY="44.0" mnemonicParsing="false" onAction="#backToHome" text="         HOME         " />
+                <ImageView fitHeight="113.0" fitWidth="192.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/hxh%20header.png" />
+                    </image>
+                </ImageView>
+                <Text layoutX="343.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONJURER TYPE">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="391.0" fitWidth="416.0" layoutX="35.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/Chrollo%20Lucilfer.jpg" />
+            </image>
+        </ImageView>
+        <TextArea layoutX="385.0" layoutY="131.0" prefHeight="145.0" prefWidth="453.0" text="In Hunter x Hunter, a Conjurer is a Nen user who can create &#10;physical objects out of their aura. This ability, called Conjuration, &#10;involves shaping aura into a physical form that can be seen and &#10;touched by others, and it is often associated with serious, &#10;logical, and cautious personalities. Conjurers can create a wide &#10;variety of objects, from weapons like Kurapika's chains to &#10;living-like creatures, which are often called Nen beasts, though &#10;they typically require Manipulation to control them &#10;independently. ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextArea>
+        <TextArea layoutX="385.0" layoutY="288.0" prefHeight="189.0" prefWidth="453.0" text="&#10;&#10;Chrollo Lucilfer is the leader of the Phantom Troupe, a young, &#10;intelligent, and charismatic character with a distinctive appearance &#10;that includes a cross-shaped tattoo on his forehead and a dark &#10;fur-collared coat. He is a philosophical and amoral antagonist &#10;who can be both ruthless and deeply devoted to his crew. His &#10;primary ability is his Nen technique, &quot;Skill Hunter,&quot; which allows &#10;him to steal other people's Nen abilities. ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextArea>
+        <Text layoutX="399.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chrollo Lucilfer">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+    </children>
 </AnchorPane>

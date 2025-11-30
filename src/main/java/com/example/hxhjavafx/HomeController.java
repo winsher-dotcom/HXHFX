@@ -17,6 +17,7 @@ public class HomeController {
     public Button emitterButton;
     public AnchorPane homeRoot;
     public Button enhancerButton;
+    public Button specialistButton;
 
     @FXML
     private void openEmitterPage(ActionEvent event) throws IOException {
